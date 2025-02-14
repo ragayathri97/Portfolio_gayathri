@@ -1,0 +1,48 @@
+.git-statistics {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+  }
+  .git-stat{
+    background-color: #FDF2F3;
+  }
+  .git-statistics h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+  }
+  
+  .git-statistics p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .git-statistics img {
+    transition: transform 0.5s ease-in-out;
+    padding: 5px;
+  }
+  .languages-tools img{
+    width: 60px;
+    height: 60px;
+  }
+  
+  .git-statistics img:hover {
+    transform: scale(1.1);
+  }
+  
+  .git-statistics .stats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .used-language{
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .languages-tools{
+    max-width: 800px;
+    margin: 0 auto;
+  }

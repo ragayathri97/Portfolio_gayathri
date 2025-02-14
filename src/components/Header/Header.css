@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.header {
+    color: #fff;
+    background-color: #000;
+    padding: 8px 35px;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+    display: flex; /* Ensure flexbox for alignment */
+    justify-content: space-between; /* Distribute space between left and right */
+    align-items: center; /* Vertically align items */
+}
+.header-left>h1{
+    text-align: center;
+    font-family: "Alata",sans-serif;
+    letter-spacing: 1px;
+}
+.header_left > h1 span{
+    color: #f64c08;
+}
+.header_right h4{
+    margin: 0 15px;
+}
+.header_right a{
+    text-decoration: none;
+}
+.header_right>a>h4{
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    font-family: "Crimson text",serif;
+    padding: 15px 0;
+    letter-spacing: 1px;
+}
+.header_right>a>h4:hover{
+    transform: scale(1.09);
+    background-color: #f64c08;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-family: "Crimson text",serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hamburger-icon {
+    display: none; 
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff; 
+}
+
+.nav-links {
+    display: flex; 
+}
+
+
+
+/* Media Query for smaller screens */
+@media (max-width: 900px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: fixed; 
+        top: 60px;
+        right: 0; 
+        width: auto;
+        max-width: 500px; 
+        background-color: #000;
+        text-align: left; 
+        z-index: 1;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    }
+
+    .nav-links.mobile-menu-open {
+        display: flex;
+        max-height: 500px;
+        overflow-y: auto;
+    }
+
+    .nav-links a {
+        padding: 15px 20px;
+        display: block; 
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        text-decoration: none; 
+        color:white;
+    }
+
+    .nav-links a:last-child {
+        border-bottom: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+
+    .header {
+        padding: 8px 20px;
+    }
+}

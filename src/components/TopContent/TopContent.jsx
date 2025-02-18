@@ -14,7 +14,7 @@ const TopContent = () => {
         <span>Hello👋, I'm</span>
             <h1>Gayathri</h1>
             <p>A Professional Web and App Developer</p>
-            <a href='https://drive.google.com/file/d/13BA7G09xXkehQRoApOYZl7DNFlhipBEb/view?usp=sharing'target="_blank" rel="noopener noreferrer">
+            <a href='https://drive.google.com/file/d/1dqzXCj265WLPSxc02zlr244vShYy4f-C/view?usp=sharing'target="_blank" rel="noopener noreferrer">
                 <button className='topContent_downloadButton'>Download CV</button>
             </a>
             <Link to='projects' smooth={true} duration={500}>

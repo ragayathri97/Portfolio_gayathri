@@ -21,7 +21,7 @@ const AboutMe = () => {
                     <p>📧 ragayathri97@gmail.com</p>
                     <p>🔗 <a href="https://github.com/ragayathri97" target="_blank" >GitHub: ragayathri97</a></p>
                     <p>🔗 <a href="https://www.linkedin.com/in/gayathri-r-32b811239/" target="_blank" >LinkedIn: ragayathri97</a></p>
-                    <p>📜 <a href="https://drive.google.com/file/d/13BA7G09xXkehQRoApOYZl7DNFlhipBEb/view?usp=sharing" target="_blank" >Resume</a></p>
+                    <p>📜 <a href="https://drive.google.com/file/d/1dqzXCj265WLPSxc02zlr244vShYy4f-C/view?usp=sharing" target="_blank" >Resume</a></p>
                 </div>
                 <div className="about-content">
                 <img src={girldev} alt="Coder Animation" className="girldev" />

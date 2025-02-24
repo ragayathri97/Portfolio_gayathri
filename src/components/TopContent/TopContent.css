@@ -14,7 +14,6 @@
 }
 .topContent_container>a>button{
     border: none;
-    border-radius: 3px;
     outline: none;
 
 }
@@ -30,12 +29,14 @@
     cursor: pointer;
     font-weight: bold;
     font-size: 14px;
-
+    border-radius: 3px;
 }
 .topContent_downloadButton{
     color: #fff;
     background-color: #F64C08;
     padding: 10px 30px;    
+    border: none;
+    
 }
 .topContent_workButton{
     color: #F64C08;
@@ -47,6 +48,6 @@
     margin: 0 0 0 100px;
     border: 1px solid #000;
     border-radius: 10px;
-    height: 275px;
+    height: 278px;
     width: 255px;
 }

@@ -9,6 +9,7 @@ const skills = [
   { name: "React", icon: "⚛️" },
   { name: "Git", icon: "🔗" },
   { name: "Figma", icon: "🎭" },
+  { name: "Redux", icon: "🔄" },
 ];
 
 const Skills = () => {

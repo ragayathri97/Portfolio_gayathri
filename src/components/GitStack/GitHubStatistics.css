@@ -7,9 +7,9 @@
     background-color: #FDF2F3;
   }
   .git-statistics h3 {
-    color: #333;
-    font-size: 1.5rem;
-    margin-bottom: 25px;
+    color: #F64C08;
+    font-size: 35px;
+    margin-bottom: 28px;
   }
   
   .git-statistics p {
@@ -24,8 +24,8 @@
     padding: 5px;
   }
   .languages-tools img{
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
   }
   
   .git-statistics img:hover {
@@ -39,10 +39,10 @@
     margin-top: 20px;
   }
   .used-language{
-    max-width: 700px;
+    max-width: 750px;
     margin: 0 auto;
   }
   .languages-tools{
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
   }

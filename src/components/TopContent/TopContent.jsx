@@ -16,7 +16,6 @@ const TopContent = () => {
       document.body.removeChild(link);
     }, 100); 
   };
-
   return (
     <div className='banner-content content-width'>
       <div className='topContent flex-element'>

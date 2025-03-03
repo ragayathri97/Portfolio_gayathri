@@ -14,19 +14,13 @@ const projects = [
     description: "Solo Project: A online Fashion store for all Gender.\n Tech Stack: HTML, css, JavaScript, Json, Glitch ",
   },
   {
-    title: "Portfolio Website",
-    image: agsale, 
-    github: "https://github.com/ragayathri97/AG-Fashion-Store",
-    live: "https://ragayathri97.github.io/AG-Fashion-Store/",
-    description: "Solo Project: A personal portfolio website.\nTech Stack: React, CSS, Vite.",
+    title: "Netflix Website",
+    image: netflix, 
+    github: "https://github.com/ragayathri97/Netflix-firebase",
+    live: "https://netflix-project-9d731.firebaseapp.com/login",
+    description: "Solo Project: A Netflix website.\nTech Stack: React, CSS, Vite, Firebase.",
   },
-  {
-    title: "Portfolio Website",
-    image: agsale, 
-    github: "https://github.com/ragayathri97/AG-Fashion-Store",
-    live: "https://ragayathri97.github.io/AG-Fashion-Store/",
-    description: "Solo Project: A personal portfolio website.\nTech Stack: React, CSS, Vite.",
-  },
+  
 ];
 
 const Projects = () => {

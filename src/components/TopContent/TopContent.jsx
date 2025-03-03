@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import "./topContent.css";
 import gayuimg from "../../assets/images/Gayuimg.jpeg";
-import resumePdf from "../../assets/resume/Gayathri_CV.pdf";
+import resumePdf from "../../assets/resume/GayathriR.pdf";
 
 const TopContent = () => {
   const handleDownload = () => {

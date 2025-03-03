@@ -3,6 +3,7 @@ import "./Projects.css";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { Element } from "react-scroll";
 import agsale from "../../assets/images/agsale.png"; 
+import netflix from "../../assets/images/netflix.png"
 
 // Project details
 const projects = [

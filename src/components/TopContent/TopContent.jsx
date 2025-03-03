@@ -10,7 +10,7 @@ const TopContent = () => {
     setTimeout(() => { 
       const link = document.createElement('a');
       link.href = resumePdf;
-      link.download = 'Gayathri_CV.pdf';
+      link.download = 'GayathriR.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);

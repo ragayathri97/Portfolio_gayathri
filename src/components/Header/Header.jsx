@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-scroll";
 import "../Header/Header.css";
-import { FaBars, FaTimes } from 'react-icons/fa'; // Import icons
+import { FaBars, FaTimes } from 'react-icons/fa'; 
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import "./topContent.css";
 import gayuimg from "../../assets/images/Gayuimg.jpeg";
-import resumePdf from "../../assets/resume/GayathriR.pdf";
+import resumePdf from "../../assets/resume/GayathriResume.pdf";
 
 const TopContent = () => {
   const handleDownload = () => {
@@ -10,7 +10,7 @@ const TopContent = () => {
     setTimeout(() => { 
       const link = document.createElement('a');
       link.href = resumePdf;
-      link.download = 'GayathriR.pdf';
+      link.download = 'GayathriResume.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);

@@ -4,7 +4,6 @@ import "./topContent.css";
 import gayuimg from "../../assets/images/Gayuimg.jpeg";
 import resumePdf from "../../assets/resume/GayathriResume.pdf";
 
-
 const TopContent = () => {
   const handleDownload = () => {
     window.open(resumePdf, '_blank');

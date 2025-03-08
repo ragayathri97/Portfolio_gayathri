@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { Element } from "react-scroll";
 import EcommerceHub from "../../assets/images/EcommerceHub.png"
 import agsale from "../../assets/images/agsale.png"; 
-import weatherapp from "../../assets/images/weatherApp"
+import weatherApp from "../../assets/images/weatherApp"
 
 // Project details
 const projects = [
@@ -24,7 +24,7 @@ const projects = [
   },
   {
     title: "Weather App",
-    image: weatherapp,
+    image: weatherApp,
     github: "https://github.com/ragayathri97/weather",
     live: "https://ragayathri97.github.io/weather/",
     description: "Solo Project: React weather app using OpenWeatherMap API, Displays current weather for searched cities, Dimple weather application built with React, Detches and shows weather data via API.",

@@ -3,10 +3,17 @@ import "./Projects.css";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { Element } from "react-scroll";
 import agsale from "../../assets/images/agsale.png"; 
-import netflix from "../../assets/images/netflix.png"
+import EcommerceHub from "../../assets/images/EcommerceHub.png"
 
 // Project details
 const projects = [
+  {
+    title: "EcommerceHub Website",
+    image: EcommerceHub, 
+    github: "https://github.com/ragayathri97/ECommerceHub",
+    live: "https://ecommercehub-ad1de.web.app/",
+    description: "Built a responsive e-commerce website with product filtering, sorting, pagination, and secure checkout, integrated with Firebase for real-time cart and user management.",
+  },
   {
     title: "A&G Fashion Store",
     image: agsale,
@@ -15,13 +22,12 @@ const projects = [
     description: "Solo Project: A online Fashion store for all Gender.\n Tech Stack: HTML, css, JavaScript, Json, Glitch ",
   },
   {
-    title: "Netflix Website",
-    image: netflix, 
-    github: "https://github.com/ragayathri97/Netflix-firebase",
-    live: "https://netflix-project-9d731.firebaseapp.com/login",
-    description: "Solo Project: A Netflix website.\nTech Stack: React, CSS, Vite, Firebase.",
+    title: "Weather App",
+    image: weatherApp,
+    github: "https://github.com/ragayathri97/weather",
+    live: "https://ragayathri97.github.io/weather/",
+    description: "React weather app using OpenWeatherMap API, Displays current weather for searched cities, Dimple weather application built with React, Detches and shows weather data via API.",
   },
-  
 ];
 
 const Projects = () => {

@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { Element } from "react-scroll";
 import EcommerceHub from "../../assets/images/EcommerceHub.png"
 import agsale from "../../assets/images/agsale.png"; 
-import weatherApp from "../../assets/images/weatherApp"
+import weatherApp from "../../assets/images/weatherApp.png"
 
 // Project details
 const projects = [

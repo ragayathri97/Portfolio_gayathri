@@ -2,8 +2,9 @@ import React from "react";
 import "./Projects.css";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { Element } from "react-scroll";
-import agsale from "../../assets/images/agsale.png"; 
 import EcommerceHub from "../../assets/images/EcommerceHub.png"
+import agsale from "../../assets/images/agsale.png"; 
+import weatherApp from "../../assets/images/weatherApp"
 
 // Project details
 const projects = [

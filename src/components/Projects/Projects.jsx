@@ -13,7 +13,7 @@ const projects = [
     image: EcommerceHub, 
     github: "https://github.com/ragayathri97/ECommerceHub",
     live: "https://ecommercehub-ad1de.web.app/",
-    description: "Built a responsive e-commerce website with product filtering, sorting, pagination, and secure checkout, integrated with Firebase for real-time cart and user management.",
+    description: "Solo Project: Built a responsive e-commerce website with product filtering, sorting, pagination, and secure checkout, integrated with Firebase for real-time cart and user management.",
   },
   {
     title: "A&G Fashion Store",
@@ -27,7 +27,7 @@ const projects = [
     image: weatherApp,
     github: "https://github.com/ragayathri97/weather",
     live: "https://ragayathri97.github.io/weather/",
-    description: "React weather app using OpenWeatherMap API, Displays current weather for searched cities, Dimple weather application built with React, Detches and shows weather data via API.",
+    description: "Solo Project: React weather app using OpenWeatherMap API, Displays current weather for searched cities, Dimple weather application built with React, Detches and shows weather data via API.",
   },
 ];
 
@@ -63,5 +63,4 @@ const Projects = () => {
     </Element>
   );
 };
-
 export default Projects;
